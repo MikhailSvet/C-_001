@@ -1,6 +1,7 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите число");
 int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Все четные числа - "+ a);
 int i = 1;
 while (i < a)
 {
@@ -11,8 +12,5 @@ while (i < a)
     }
 
     i++;
-    //Console.WriteLine("Все четные числа");
-    //Console.Write(i);
 }
-Console.WriteLine("Все четные числа");
 Console.Write(i);
